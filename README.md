@@ -93,6 +93,8 @@ class QuoteData:
 ---
 
 
+---
+
 ## 🔌 External Dependencies
 
 ### 🌐 Jupiter API Integration
