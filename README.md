@@ -64,3 +64,14 @@ It operates by making concurrent API requests to Jupiter’s quote endpoint, tra
   - Percent formatting  
 
 ---
+
+## 🔄 Data Flow
+
+1. 🚀 **Initialization** – Load config & setup HTTP session  
+2. 🔁 **Quote Fetching** – Concurrent calls to Jupiter API  
+3. 📥 **Data Collection** – Capture times, prices, metadata  
+4. 📉 **Real-Time Analysis** – Run statistical processing  
+5. 📤 **Results Output** – Export to CSV with formatting  
+
+---
+
