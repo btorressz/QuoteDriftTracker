@@ -75,3 +75,18 @@ It operates by making concurrent API requests to Jupiter’s quote endpoint, tra
 
 ---
 
+### 🧾 Quote Data Structure
+
+```python
+@dataclass
+class QuoteData:
+    timestamp: float
+    request_time: float
+    response_time: float
+    latency: float
+    output_amount: int
+    price_impact_pct: float
+    route_plan: List[Dict]
+    success: bool
+    error: Optional[str]
+
