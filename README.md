@@ -15,4 +15,14 @@ It operates by making concurrent API requests to Jupiter’s quote endpoint, tra
 - 🌀 **Asynchronous Python Application** – Built using `asyncio` for concurrent quote fetching  
 - 🧩 **Modular Design** – Separated concerns across multiple modules (tracking, analysis, config, utils)  
 - 📊 **Data-Driven Analysis** – Real-time statistical analysis of quote data and latency patterns  
-- 🖥️ **CLI Interface** – Command-line interface for configurable execution parameters  
+- 🖥️ **CLI Interface** – Command-line interface for configurable execution parameters
+
+  ### 🛠️ Technology Stack
+- 🐍 **Python 3.11**
+- 🌐 **aiohttp** – Async HTTP client for fetching quotes  
+- 🌶️ **Flask** – Dashboard interface (optional)  
+- 📐 **numpy** – For numerical computation  
+- ⚙️ **asyncio** – For high-frequency concurrent requests
+
+  ---
+
