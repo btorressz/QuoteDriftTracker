@@ -1,0 +1,10 @@
+[project]
+name = "quote-drift-tracker"
+version = "0.1.0"
+description = "Jupiter Quote Latency Drift Tracker - Analyze MEV/HFT trading dynamics on Solana"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "flask>=3.1.1",
+    "numpy>=2.3.1",
+]
