@@ -113,3 +113,9 @@ The `QuoteData` structure is a container that stores detailed information about 
 - 💵 **Output Token**: `USDC` (`EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`)
 - 🧠 **Customizable**: Supports all SPL token pairs
 
+  ---
+
+  ## 🧾📜 LICENSE
+  - This project is under the **MIT LICENSE**
+
+  ---
