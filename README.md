@@ -77,20 +77,25 @@ It operates by making concurrent API requests to Jupiter’s quote endpoint, tra
 
 ### 🧾 Quote Data Structure
 
-```python
-@dataclass
-class QuoteData:
-    timestamp: float
-    request_time: float
-    response_time: float
-    latency: float
-    output_amount: int
-    price_impact_pct: float
-    route_plan: List[Dict]
-    success: bool
-    error: Optional[str]
+The `QuoteData` structure is a container that stores detailed information about each individual quote received from the Jupiter API. Each quote record includes the following fields:
 
----
+- **Timestamp**: The exact time (in seconds) when the quote was recorded.
+
+- **Request Time**: The moment when the request to the Jupiter API was initiated.
+
+- **Response Time**: The moment when the response was received from the Jupiter API.
+
+- **Latency**: The total time it took (in seconds) between sending the request and receiving the response — a key metric for tracking speed and potential MEV timing advantages.
+
+- **Output Amount**: The amount of the output token (e.g., USDC) that would be received from the trade at the quoted rate.
+
+- **Price Impact Percentage**: A numerical value indicating how much the quote affects the market price — useful for understanding slippage and trade efficiency.
+
+- **Route Plan**: A list of routes (with metadata) that Jupiter uses to execute the swap. This might include details like the DEXs involved or token paths taken.
+
+- **Success**: A Boolean flag (`True` or `False`) indicating whether the quote request was successful.
+
+- **Error** *(optional)*: If the quote failed, this field contains a description of the error for debugging or logging purposes.
 
 
 ---
