@@ -90,3 +90,19 @@ class QuoteData:
     success: bool
     error: Optional[str]
 
+---
+
+
+## 🔌 External Dependencies
+
+### 🌐 Jupiter API Integration
+- **Endpoint**: [`https://quote-api.jup.ag/v6/quote`](https://quote-api.jup.ag/v6/quote)
+- 🔍 **Purpose**: Real-time Solana DEX price quotes
+- 📊 **Rate Limiting**: Configurable RPS and timeout control
+- 🔁 **Error Handling**: Retry with exponential backoff
+
+### 🪙 Token Configuration
+- 💰 **Input Token**: `SOL` (`So11111111111111111111111111111111111112`)
+- 💵 **Output Token**: `USDC` (`EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`)
+- 🧠 **Customizable**: Supports all SPL token pairs
+
