@@ -119,3 +119,12 @@ The `QuoteData` structure is a container that stores detailed information about 
   - This project is under the **MIT LICENSE**
 
   ---
+
+  ## 📸 Screenshots
+  
+![Quote Drift Tracker Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/quotedrifttracker1.jpg?raw=true)
+
+
+![Quote Drift Tracker Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/quotedrifttracker2.jpg?raw=true)
+
+
