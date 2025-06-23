@@ -26,3 +26,41 @@ It operates by making concurrent API requests to Jupiter’s quote endpoint, tra
 
   ---
 
+## 🧩 Key Components
+
+### 1️⃣ Quote Tracker (`quote_tracker.py`)
+- 🎯 **Purpose**: Fetch and store Jupiter quotes  
+- 📦 **Responsibilities**:
+  - Managing HTTP sessions & requests  
+  - Tracking latency and response times  
+  - Storing quote data in a structured format  
+- 🌟 **Key Features**: Concurrent request handling, error tracking, performance monitoring  
+
+### 2️⃣ Data Analyzer (`data_analyzer.py`)
+- 📈 **Purpose**: Analyze collected quote data  
+- 📊 **Responsibilities**:
+  - Calculate price drift  
+  - Identify MEV opportunities  
+  - Compute averages, percentiles, success rates  
+- 🧮 **Thresholds**:  
+  - Drift: `0.01%`  
+  - Latency advantage: `50ms`  
+
+### 3️⃣ Configuration Management (`config.py`)
+- ⚙️ **Purpose**: Centralized and validated settings  
+- 🧵 **Defaults**:
+  - Trading pair: `SOL → USDC`  
+  - Swap amount: `1 SOL (1,000,000 lamports)`  
+  - RPS: `5 requests/sec`  
+  - Duration: `60 seconds`  
+  - Workers: `10 concurrent`  
+  - Slippage: `0.5%`  
+
+### 4️⃣ Utilities (`utils.py`)
+- 🛠️ **Purpose**: Helper functions  
+- 🔢 **Functions**:
+  - Price drift calculations  
+  - Number formatting  
+  - Percent formatting  
+
+---
