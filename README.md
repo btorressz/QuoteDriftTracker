@@ -142,5 +142,9 @@ The `QuoteData` structure is a container that stores detailed information about 
 ![Demo Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/demoscreenshot2.jpg?raw=true)
 
 
+![Demo Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/demoscreenshot3.jpg?raw=true)
+
+
+
 
 
