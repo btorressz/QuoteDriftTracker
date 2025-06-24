@@ -128,6 +128,10 @@ The `QuoteData` structure is a container that stores detailed information about 
 ![Quote Drift Tracker Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/quotedrifttracker2.jpg?raw=true)
 
 
+![Quote Drift Tracker Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/quotedrifttracker3.jpg?raw=true)
+
+
+
 ![Demo Screenshot](https://github.com/btorressz/QuoteDriftTracker/blob/main/demoscreenshot1.jpg?raw=true)
 
 
